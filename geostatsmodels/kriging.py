@@ -58,7 +58,7 @@ def simple( data, covfct, u, N=0, nugget=0 ):
     K, k, P = kmatrices( data, covfct, u, N )
 
     # calculate the kriging weights
-    weights = np.linalg.inv( K ) * k
+    weights = np.linalg.pinv( K ) * k
     weights = np.array( weights )
 
     # calculate k' * K * k for
@@ -102,7 +102,7 @@ def ordinary( data, covfct, u, N=0, nugget=0 ):
     k[:N] = ks
     
     # calculate the kriging weights
-    weights = np.linalg.inv( K ) * k
+    weights = np.linalg.pinv( K ) * k
     weights = np.array( weights )
 
     # calculate k' * K * k for
