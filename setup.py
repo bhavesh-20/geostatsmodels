@@ -11,7 +11,7 @@ setuptools.setup(
     description='Kriging and geostatistics tools.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/cjohnson318/geostatsmodels',
+    url='https://github.com/bhavesh-20/geostatsmodels',
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
