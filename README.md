@@ -26,7 +26,7 @@ are in your path.
 
 To install geostatsmodels:
 
-    pip install git+git://github.com/cjohnson318/geostatsmodels.git
+    pip install git+git://github.com/bhavesh-20/geostatsmodels.git
 
 Uninstalling and Updating
 -------------------------
